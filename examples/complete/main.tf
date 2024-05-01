@@ -11,7 +11,7 @@ terraform {
 provider "snowflake" {}
 
 module "snowflake_schema_test" {
-  source  = "../.."
+  source = "../.."
 
   database    = "TEST"
   schema_name = "TEST"
